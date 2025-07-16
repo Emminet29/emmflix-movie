@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server/server.js",
-    "client": "npm --prefix streamly-client start"
+    "client": "npm --prefix server/streamly-client start",
+    "build-client": "npm --prefix server/streamly-client run build"
   },
   "keywords": [],
   "author": "",
